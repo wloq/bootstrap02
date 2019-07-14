@@ -140,7 +140,80 @@ body{
     align-items: center;
     padding-bottom: 15px;
 }
+#lk_hot .row{
+    padding-bottom: 15px;
+}
 /***********热门课程**********/
+
+/***********友情链接**********/
+#lk_link{
+    padding: 10px 0;
+}
+#lk_link .title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 15px;
+}
+#lk_link .logos{
+    /*去除ul标签的原点*/
+    list-style: none;
+    text-align: center;
+}
+#lk_link .logos li{
+    /*使li标签横排列*/
+    display: inline-block;
+    padding: 20px 30px;
+}
+/***********友情链接**********/
+
+/***********底部**********/
+#lk_footer{
+    width: 100%;
+    height: 200px;
+    background: url("../imgs/ft_bg.png") no-repeat center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    color: #ffffff;
+    font-size: 16px;
+}
+#lk_footer ul{
+    list-style: none;
+}
+#lk_footer .one,#lk_footer .two{
+    padding: 10px;
+    border-right: 1px solid #666;
+    height: 180px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+#lk_footer .one li{
+    line-height: 40px;
+}
+#lk_footer .one li a{
+    color: #ffffff;
+}
+
+#lk_footer .three{
+    padding: 10px 50px;
+    height: 180px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+#lk_footer .three a{
+    margin-right: 15px;
+    text-decoration: none;
+}
+/***********底部**********/
 
 
 
