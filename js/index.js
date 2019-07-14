@@ -18,6 +18,9 @@ $(function () {
             }
         });
     });
-    $(window).trigger("resize")
+    $(window).trigger("resize");
+    // 2.工具提示
+    $('[data-toggle="tooltip"]').tooltip();
+
 });
 // 轮播图电脑版和手机版设置

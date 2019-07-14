@@ -37,9 +37,10 @@
                       <a href="" class="text-muted">有钱一起赚</a>
                   </div>
                   <div class="top-bar-4 col-md-3">
-                      <a href="#" role="button" class="btn btn-default btn-sm btn-primary">免费注册</a>
-                      <a href="#" role="button" class="text-muted" style="margin-left: 10px">立即登陆</a>
-                  </div>
+                    <a class="btn btn-primary btn-sm btn-register" href="#" role="button">免费注册</a>
+                    <a href="#" role="button" class="text-muted" style="margin-left: 10px" data-toggle="modal"
+                       data-target="#lk_login">立即登录</a>
+                </div>
               </div>
           </div>
       </div>
@@ -410,14 +411,35 @@
               <div class="col-md-3 three">
                   <h5>联系我们:</h5>
                   <a href="">
-                      <img src="imgs/weixin-h.png" alt="" width="50">
-                      <img src="imgs/xinlang-h.png" alt="" width="50">
+                      <img src="imgs/weixin-h.png" alt="" width="50" data-toggle="tooltip" data-placement="bottom" title="13640561011">
+                      <img src="imgs/xinlang-h.png" alt="" width="50" data-toggle="tooltip" data-placement="bottom" title="那咬奶好么">
                   </a>
               </div>
           </div>
       </div>
   </footer>
   <!--/底部-->
+  <!-- 登录 -->
+<div class="modal fade" id="lk_login" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+                </button>
+                <h4 class="modal-title" id="myModalLabel">登录</h4>
+            </div>
+            <div class="modal-body">
+                <input type="text" placeholder="请输入手机号码">
+                <input type="password" placeholder="请输入密码">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+                <button type="button" class="btn btn-primary">登录</button>
+            </div>
+        </div>
+    </div>
+</div>
+
 
    <script src="js/jquery-3.3.1.min.js"></script>
    <script src="js/bootstrap.js"></script>
